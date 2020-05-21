@@ -382,7 +382,7 @@ a:focus {
   margin-left: auto; }
 
 .header-middle {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2.5rem; }
 
 .header-user {
@@ -410,7 +410,7 @@ a:focus {
     display: block;
     max-width: none;
     height: auto;
-    width: auto; }
+    width: 80px; }
 
 .header-dropdowns {
   display: flex;
