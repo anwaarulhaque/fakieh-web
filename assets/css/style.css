@@ -382,7 +382,7 @@ a:focus {
   margin-left: auto; }
 
 .header-middle {
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 2.5rem; }
 
 .header-user {
@@ -409,13 +409,8 @@ a:focus {
   .logo img {
     display: block;
     max-width: none;
-<<<<<<< HEAD
-    height: 60px;
+    height: 65px;
     width: auto; }
-=======
-    height: auto;
-    width: 80px; }
->>>>>>> b8d1a2dada04b144f0ca3c90089d377b7654cdfd
 
 .header-dropdowns {
   display: flex;
@@ -5108,32 +5103,16 @@ a:focus {
     font-weight: 400;
     color: #777;
     margin-bottom: 2rem;
-    text-align: center; 
-  line-height: 1.2em;}
+    text-align: center; }
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
-    background-color: #f6851f;
+    border-color: #050203;
+    background-color: #050203;
     color: #fff;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase; }
-
-    .home-banner-content .btn-android{
-      height: 60px;
-      width: auto;
-      padding: 0;
-      margin: 10px auto;
-    }
-
-    .home-banner-content .btn-ios{
-      height: 60px;
-      width: auto;
-      padding: 0;
-      margin: 10px auto;
-    }
-
-
     .home-banner-content a.btn:hover {
       opacity: 0.8; }
   .home-banner-content.content-left-bottom {
@@ -5141,9 +5120,6 @@ a:focus {
     bottom: 8%; }
     .home-banner-content.content-left-bottom h4 {
       text-align: left; }
-
-      .home-banner-content.content-left-bottom h3 {
-        text-align: left; }
   .home-banner-content.content-center, .home-banner-content.content-top-center {
     top: 0;
     left: 5%;
