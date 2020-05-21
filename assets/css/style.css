@@ -409,7 +409,7 @@ a:focus {
   .logo img {
     display: block;
     max-width: none;
-    height: auto;
+    height: 60px;
     width: auto; }
 
 .header-dropdowns {
@@ -5101,10 +5101,10 @@ a:focus {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.5em;
     color: #777;
     margin-bottom: 2rem;
-    text-align: center; }
+    text-align: center; 
+  line-height: 1.2em;}
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
@@ -5114,19 +5114,18 @@ a:focus {
     letter-spacing: 0.2em;
     text-transform: uppercase; }
 
-    .home-banner-content .btn-ios{
-      padding: 0;
+    .home-banner-content .btn-android{
       height: 60px;
       width: auto;
+      padding: 0;
       margin: 10px auto;
     }
 
-    .home-banner-content .btn-android{
-      padding: 0;
+    .home-banner-content .btn-ios{
       height: 60px;
       width: auto;
+      padding: 0;
       margin: 10px auto;
-
     }
 
 
