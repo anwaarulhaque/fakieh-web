@@ -382,7 +382,7 @@ a:focus {
   margin-left: auto; }
 
 .header-middle {
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-bottom: 2.5rem; }
 
 .header-user {
@@ -409,8 +409,13 @@ a:focus {
   .logo img {
     display: block;
     max-width: none;
+<<<<<<< HEAD
     height: 60px;
     width: auto; }
+=======
+    height: auto;
+    width: 80px; }
+>>>>>>> b8d1a2dada04b144f0ca3c90089d377b7654cdfd
 
 .header-dropdowns {
   display: flex;
