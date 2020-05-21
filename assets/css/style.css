@@ -382,7 +382,7 @@ a:focus {
   margin-left: auto; }
 
 .header-middle {
-  padding-top: 2.5rem;
+  padding-top: 2rem;
   padding-bottom: 2.5rem; }
 
 .header-user {
@@ -2968,27 +2968,16 @@ footer .social-icons .social-icon {
 .product-category {
   color: #1d2127;
   margin-bottom: 2rem;
-  position: relative; 
-  border-radius: 15px;
-}
+  position: relative; }
   .product-category a:hover {
     color: inherit; }
   .product-category figure {
     margin-bottom: 0;
-    position: relative; 
-  }
-  .product-category figure img{
-    height: 150px;
-  border-radius: 15px;
-
-  }
-
+    position: relative; }
     .product-category figure::after {
       position: absolute;
       width: 100%;
       height: 100%;
-  border-radius: 15px;
-
       left: 0;
       top: 0;
       background-color: rgba(27, 27, 23, 0.15);
@@ -5112,18 +5101,35 @@ a:focus {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: 1.5em;
     color: #777;
     margin-bottom: 2rem;
     text-align: center; }
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
-    border-color: #050203;
-    background-color: #050203;
+    background-color: #f6851f;
     color: #fff;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase; }
+
+    .home-banner-content .btn-ios{
+      padding: 0;
+      height: 60px;
+      width: auto;
+      margin: 10px auto;
+    }
+
+    .home-banner-content .btn-android{
+      padding: 0;
+      height: 60px;
+      width: auto;
+      margin: 10px auto;
+
+    }
+
+
     .home-banner-content a.btn:hover {
       opacity: 0.8; }
   .home-banner-content.content-left-bottom {
@@ -5131,6 +5137,9 @@ a:focus {
     bottom: 8%; }
     .home-banner-content.content-left-bottom h4 {
       text-align: left; }
+
+      .home-banner-content.content-left-bottom h3 {
+        text-align: left; }
   .home-banner-content.content-center, .home-banner-content.content-top-center {
     top: 0;
     left: 5%;
