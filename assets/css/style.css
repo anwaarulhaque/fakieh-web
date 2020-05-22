@@ -5101,18 +5101,33 @@ a:focus {
     font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
+    line-height: 1.2em;
     color: #777;
     margin-bottom: 2rem;
     text-align: center; }
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
-    border-color: #050203;
-    background-color: #050203;
+    background-color: #f6851f;
     color: #fff;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase; }
+
+    .home-banner-content .btn-android{
+      padding: 0;
+      margin: 10px auto;
+      height: 60px;
+      width: auto;
+    }
+
+    .home-banner-content .btn-ios{
+      padding: 0;
+      margin: 10px auto;
+      height: 60px;
+      width: auto;
+    }
+
     .home-banner-content a.btn:hover {
       opacity: 0.8; }
   .home-banner-content.content-left-bottom {
@@ -5120,6 +5135,9 @@ a:focus {
     bottom: 8%; }
     .home-banner-content.content-left-bottom h4 {
       text-align: left; }
+
+      .home-banner-content.content-left-bottom h3 {
+        text-align: left; }
   .home-banner-content.content-center, .home-banner-content.content-top-center {
     top: 0;
     left: 5%;
