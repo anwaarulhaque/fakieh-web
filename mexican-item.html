@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Porto - Bootstrap eCommerce Template</title>
+
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Bootstrap eCommerce Template">
+    <meta name="author" content="SW-THEMES">
+        
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+    
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700','Segoe Script:300,400,500,600,700' ] }
+        };
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'assets/js/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700','Segoe Script:300,400,500,600,700' ] }
+        };
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'assets/js/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+    </script>
+    
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    <div class="page-wrapper">
+
+        <header class="header">
+            <div class="header-middle sticky-header">
+                <div class="container-fluid">
+                    <div class="header-left">
+                        <button class="mobile-menu-toggler" type="button">
+                            <i class="icon-menu"></i>
+                        </button>
+                        <a href="index.html" class="logo">
+                            <img src="assets/images/logo.png" alt="Porto Logo">
+                        </a>
+
+                        <nav class="main-nav">
+                            <ul class="menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div><!-- End .header-left -->
+
+                    <div class="header-right"> 
+
+                        <a href="login.html">
+                            <div class="header-user">
+                                <i class="icon-user-2"></i>
+                            </div>
+                        </a>
+
+                        <div class="header-search">
+                            <a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+                            <form action="#" method="get">
+                                <div class="header-search-wrapper">
+                                    <input type="search" class="form-control" name="q" id="q" placeholder="I'm searching for..." required="">
+                                    <div class="select-custom">
+                                        <select id="cat" name="cat">
+                                            <option value="">All Categories</option>
+                                            <option value="4">Asian food</option>
+                                            <option value="12">Arabian food</option>
+                                            <option value="13">Juice</option>
+                                            <option value="66">Italian food</option>
+                                            <option value="67">Dessert</option>
+                                            <option value="5">Sandwiches</option>
+                                            <option value="21">Shawarma/option>
+                                            <option value="22">Fastfood/option>
+                                            <option value="63">Mexican</option>
+                                            <option value="7"> Indian food</option>
+                                            <option value="11">coffee</option>
+                                            <option value="31">Healthy food</option>
+                                            <option value="32">Traditional Food</option>
+                                        </select>
+                                    </div><!-- End .select-custom -->
+                                    <button class="btn" type="submit"><i class="icon-search-3"></i></button>
+                                </div><!-- End .header-search-wrapper -->
+                            </form>
+                        </div>
+
+                      
+
+                        <div class="dropdown cart-dropdown">
+                            <a href="#" class="dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+                                <i class="icon-bag-2"></i>
+                                <span class="cart-count"></span>
+                            </a>
+
+                            
+                        </div><!-- End .dropdown -->
+                    </div><!-- End .header-right -->
+                </div><!-- End .container-fluid -->
+            </div><!-- End .header-middle -->
+        </header><!-- End .header -->
+
+
+        <main class="main">
+            <nav aria-label="breadcrumb" class="breadcrumb-nav">
+                <div class="container-fluid">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Mexican foods</a></li>
+                        <li class="breadcrumb-item"><a href="#">Restaurent</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Menu</li>
+                    </ol>
+                </div><!-- End .container-fluid -->
+            </nav>
+
+            <div class="page-header">
+                <div class="container">
+                    <h1>Popular Menu Items</h1>
+                </div><!-- End .container -->
+            </div><!-- End .page-header -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 padding-right-lg">
+                        <div class="cart-table-container">
+                            <table class="table table-cart">
+                                <thead>
+                                    <tr>
+                                        <th class="product-col">Product</th>
+                                        <th class="price-col">Price</th>
+                                        <th class="qty-col">Qty</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="product-row">
+                                        <td class="product-col">
+                                            <figure class="product-image-container">
+                                                <a href="#" class="product-image">
+                                                    <img src="assets/images/products/item-mexican/product-1.jpg" alt="product">
+                                                </a>
+                                            </figure>
+                                            <h2 class="product-title">
+                                                <a href="#">Pomegranate juice</a>
+                                            </h2>
+                                        </td>
+                                        <td>$17.90</td>
+                                        <td>
+                                            <input class="vertical-quantity form-control" type="text">
+                                        </td>
+                                        <td>$17.90</td>
+                                    </tr>
+                                    <tr class="product-action-row">
+                                        <td colspan="4" class="clearfix">
+                                            <div class="float-left">
+                                                <a href="#" class="btn-move">Move to Wishlist</a>
+                                            </div><!-- End .float-left -->
+                                            
+                                            <div class="float-right">
+                                                <a href="#" title="Edit product" class="btn-edit"><span class="sr-only">Edit</span><i class="icon-pencil"></i></a>
+                                                <a href="#" title="Remove product" class="btn-remove"><span class="sr-only">Remove</span></a>
+                                            </div><!-- End .float-right -->
+                                        </td>
+                                    </tr>
+
+                                    <tr class="product-row">
+                                        <td class="product-col">
+                                            <figure class="product-image-container">
+                                                <a href="#" class="product-image">
+                                                    <img src="assets/images/products/item-mexican/product-2.jpg" alt="product">
+                                                </a>
+                                            </figure>
+                                            <h2 class="product-title">
+                                                <a href="#">Orange Juice</a>
+                                            </h2>
+                                        </td>
+                                        <td>$8.90</td>
+                                        <td>
+                                            <input class="vertical-quantity form-control" type="text">
+                                        </td>
+                                        <td>$8.90</td>
+                                    </tr>
+                                    <tr class="product-action-row">
+                                        <td colspan="4" class="clearfix">
+                                            <div class="float-left">
+                                                <a href="#" class="btn-move">Move to Wishlist</a>
+                                            </div><!-- End .float-left -->
+                                            
+                                            <div class="float-right">
+                                                <a href="#" title="Edit product" class="btn-edit"><span class="sr-only">Edit</span><i class="icon-pencil"></i></a>
+                                                <a href="#" title="Remove product" class="btn-remove"><span class="sr-only">Remove</span></a>
+                                            </div><!-- End .float-right -->
+                                        </td>
+                                    </tr>
+                                    <tr class="product-row">
+                                        <td class="product-col">
+                                            <figure class="product-image-container">
+                                                <a href="#" class="product-image">
+                                                    <img src="assets/images/products/item-mexican/product-3.jpg" alt="product">
+                                                </a>
+                                            </figure>
+                                            <h2 class="product-title">
+                                                <a href="#">Lemon juice</a>
+                                            </h2>
+                                        </td>
+                                        <td>$17.90</td>
+                                        <td>
+                                            <input class="vertical-quantity form-control" type="text">
+                                        </td>
+                                        <td>$17.90</td>
+                                    </tr>
+                                    <tr class="product-action-row">
+                                        <td colspan="4" class="clearfix">
+                                            <div class="float-left">
+                                                <a href="#" class="btn-move">Move to Wishlist</a>
+                                            </div><!-- End .float-left -->
+                                            
+                                            <div class="float-right">
+                                                <a href="#" title="Edit product" class="btn-edit"><span class="sr-only">Edit</span><i class="icon-pencil"></i></a>
+                                                <a href="#" title="Remove product" class="btn-remove"><span class="sr-only">Remove</span></a>
+                                            </div><!-- End .float-right -->
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="4" class="clearfix">
+                                            <div class="float-left">
+                                                <a href="index.html" class="btn btn-outline-secondary">Continue Shopping</a>
+                                            </div><!-- End .float-left -->
+
+                                            <div class="float-right">
+                                                <a href="#" class="btn btn-outline-secondary btn-clear-cart">Clear Shopping Cart</a>
+                                                <a href="#" class="btn btn-outline-secondary btn-update-cart">Update Shopping Cart</a>
+                                            </div><!-- End .float-right -->
+                                        </td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div><!-- End .cart-table-container -->
+
+                    </div><!-- End .col-lg-8 -->
+
+                    <div class="col-lg-4">
+                        <div class="cart-summary">
+                            <h3>Summary</h3>
+
+                            <h4>
+                                <a data-toggle="collapse" href="#total-estimate-section" class="collapsed" role="button" aria-expanded="false" aria-controls="total-estimate-section">Estimate Shipping and Tax</a>
+                            </h4>
+
+                            <div class="collapse" id="total-estimate-section">
+                                <form action="#">
+                                    <div class="form-group form-group-sm">
+                                        <label>Country</label>
+                                        <div class="select-custom">
+                                            <select class="form-control form-control-sm">
+                                                <option value="dammam">Dammam</option>
+                                                <option value="behrain">Behrain</option>
+                                                <option value="saudiarabia">Saudi arabia</option>
+                                            </select>
+                                        </div><!-- End .select-custom -->
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group form-group-sm">
+                                        <label>State/Province</label>
+                                        <div class="select-custom">
+                                            <select class="form-control form-control-sm">
+                                                <option value="CA">selece</option>
+                                                
+                                            </select>
+                                        </div><!-- End .select-custom -->
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group form-group-sm">
+                                        <label>Zip/Postal Code</label>
+                                        <input type="text" class="form-control form-control-sm">
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group form-group-custom-control">
+                                        <label>Flat Way</label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="flat-rate">
+                                            <label class="custom-control-label" for="flat-rate">Fixed $5.00</label>
+                                        </div><!-- End .custom-checkbox -->
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group form-group-custom-control">
+                                        <label>Best Rate</label>
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="best-rate">
+                                            <label class="custom-control-label" for="best-rate">Table Rate $15.00</label>
+                                        </div><!-- End .custom-checkbox -->
+                                    </div><!-- End .form-group -->
+                                </form>
+                            </div><!-- End #total-estimate-section -->
+
+                            <table class="table table-totals">
+                                <tbody>
+                                    <tr>
+                                        <td>Subtotal</td>
+                                        <td>$17.90</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Tax</td>
+                                        <td>$0.00</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Order Total</td>
+                                        <td>$17.90</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+                            <div class="checkout-methods">
+                                <a href="#" class="btn btn-block btn-sm btn-primary">Go to Checkout</a>
+                                <a href="#" class="btn btn-link btn-block">Check Out with Multiple Addresses</a>
+                            </div><!-- End .checkout-methods -->
+                        </div><!-- End .cart-summary -->
+                    </div><!-- End .col-lg-4 -->
+                </div><!-- End .row -->
+            </div><!-- End .container -->
+
+            <div class="mb-6"></div><!-- margin -->
+        </main><!-- End .main -->
+
+        <footer>
+            
+            <div class="footer-middle">
+                    <div class="container-fluid">
+                    <div class="row row-sm">
+                        
+                        <div class="col-md-6 col-lg-3">
+                            <div class="widget">
+                                <h4 class="widget-title">My Account</h4>
+                                <ul class="links link-parts">
+                                    <div class="link-part">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="contact.html">Careers</a></li>
+                                        <li><a href="my-account.html">Become a rider</a></li>
+                                        <li><a href="my-account.html">Add your business</a></li>
+
+                                    </div>
+                                    
+                                </ul>
+                            </div><!-- End .widget -->
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="widget">
+                                <h4 class="widget-title">Our regions</h4>
+                                <ul class="links link-parts">
+                                    <div class="link-part">    
+                                        <li><a href="#">Dammam</a></li>
+                                        <li><a href="#">Jeddah</a></li>
+                                        <li><a href="#">Riyadh</a></li>
+                                        <li><a href="category-6col.html">View All</a></li>
+
+
+                                    </div>
+                                </ul>
+                            </div><!-- End .widget -->
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-3">
+                            <div class="widget">
+                                <h4 class="widget-title">Help</h4>
+                                <ul class="links link-parts">
+                                    <div class="link-part">
+                                        <li><a href="#">Faq</a></li>
+                                        <li><a href="#">Terms of use</a></li>
+                                        <li><a href="#">Privacy policy</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </div>
+                                    
+                                </ul>
+                            </div><!-- End .widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="container-fluid">
+                    <p class="footer-copyright">Gawamen. &copy;  2029.  All Rights Reserved</p>
+                    <!-- <img src="assets/images/payments.png" alt="payment image"> -->
+                </div>
+            </div>
+        </footer>
+    </div><!-- End .page-wrapper -->
+
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+
+    <div class="mobile-menu-container">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-retweet"></i></span>
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="category.html">Categories</a>
+                        
+                </ul>
+            </nav><!-- End .mobile-nav -->
+
+            <div class="social-icons">
+                <a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+                <a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+<!-- Add Cart Modal -->
+    
+
+    <a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.min.js"></script>
+</body>
+</html>

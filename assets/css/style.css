@@ -5026,38 +5026,6 @@ a:focus {
 .home-slider .btn:focus {
   opacity: 0.85; }
 
-.container-fluid .showcase-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%; }
-  .container-fluid .showcase-container .card-1 {
-    width: 50%;
-    margin: 60px auto; }
-    .container-fluid .showcase-container .card-1 .inner-container {
-      width: 70%;
-      margin: 50px auto; }
-      .container-fluid .showcase-container .card-1 .inner-container h2 {
-        font-weight: bold;
-        font: 600 4rem/1 "Poppins", sans-serif; }
-      .container-fluid .showcase-container .card-1 .inner-container p {
-        font-size: 1.5em;
-        color: #555; }
-      .container-fluid .showcase-container .card-1 .inner-container .row-btn {
-        display: flex;
-        margin-top: 50px; }
-        .container-fluid .showcase-container .card-1 .inner-container .row-btn .button {
-          height: 50px;
-          margin: 0 30px; }
-          .container-fluid .showcase-container .card-1 .inner-container .row-btn .button:first-child {
-            margin-left: 0; }
-  .container-fluid .showcase-container .card-2 {
-    width: 50%;
-    overflow-y: hidden;
-    height: 430px; }
-    .container-fluid .showcase-container .card-2 .mobile-app {
-      height: 500px;
-      margin: 50px 0 0 80px; }
-
 .section-header {
   margin-bottom: 3rem; }
   .section-header .section-title {
@@ -5105,29 +5073,25 @@ a:focus {
     color: #777;
     margin-bottom: 2rem;
     text-align: center; }
+  .home-banner-content .btn-android {
+    height: 50px !important;
+    width: auto !important;
+    padding: 0px !important;
+    margin: 10px auto !important; }
+  .home-banner-content .btn-ios {
+    height: 50px !important;
+    width: auto !important;
+    padding: 0px !important;
+    margin: 10px auto !important; }
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
-    background-color: #f6851f;
+    background-color: #f6851f !important;
+    border: none;
     color: #fff;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase; }
-
-    .home-banner-content .btn-android{
-      padding: 0;
-      margin: 10px auto;
-      height: 60px;
-      width: auto;
-    }
-
-    .home-banner-content .btn-ios{
-      padding: 0;
-      margin: 10px auto;
-      height: 60px;
-      width: auto;
-    }
-
     .home-banner-content a.btn:hover {
       opacity: 0.8; }
   .home-banner-content.content-left-bottom {
@@ -5135,9 +5099,8 @@ a:focus {
     bottom: 8%; }
     .home-banner-content.content-left-bottom h4 {
       text-align: left; }
-
-      .home-banner-content.content-left-bottom h3 {
-        text-align: left; }
+  .home-banner-content.content-left-bottom h3 {
+    text-align: left; }
   .home-banner-content.content-center, .home-banner-content.content-top-center {
     top: 0;
     left: 5%;
