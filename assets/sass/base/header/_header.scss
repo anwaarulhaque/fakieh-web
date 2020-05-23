@@ -156,9 +156,9 @@
   margin-right: 6rem;
 
   img {
-    display: block;
-    max-width: none;
-    height: 65px;
+    display: block !important;
+    max-width: none !important;
+    height: 60px !important;  
     width: auto;
    
   }

@@ -407,9 +407,9 @@ a:focus {
   display: block;
   margin-right: 6rem; }
   .logo img {
-    display: block;
-    max-width: none;
-    height: 65px;
+    display: block !important;
+    max-width: none !important;
+    height: 60px !important;
     width: auto; }
 
 .header-dropdowns {
@@ -5042,8 +5042,8 @@ a:focus {
     color: #777;
     margin-bottom: 0; }
 
-.bg-grey {
-  background-color: #f4f4f4; }
+.services {
+  background-color: #fff; }
 
 .home-banner {
   position: relative;
