@@ -1345,7 +1345,7 @@ a:focus {
     padding-top: 1.95rem;
     padding-bottom: 1.95rem; }
   .sticky-header.fixed .logo img {
-    width: auto;
+    width: 80px;
     max-height: 32px; }
   .sticky-header.fixed .cart-dropdown {
     margin-top: 0;
@@ -5016,7 +5016,7 @@ a:focus {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 0;
-  background-color: #f6851f;
+  background-color: #00e1ff;
   color: #fff;
   font: 400 1.2rem/1.5 "Poppins", sans-serif;
   letter-spacing: 0.2em;
@@ -5086,8 +5086,12 @@ a:focus {
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
+<<<<<<< Updated upstream
     background-color: #f6851f !important;
     border: none;
+=======
+    background-color: #00e1ff;
+>>>>>>> Stashed changes
     color: #fff;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
