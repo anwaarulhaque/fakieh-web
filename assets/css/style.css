@@ -383,7 +383,12 @@ a:focus {
 
 .header-middle {
   padding-top: 1.5rem;
-  padding-bottom: 2.5rem; }
+  padding-bottom: 2.5rem; 
+  border: #00e1ff solid 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 
 .header-user {
   display: flex;
