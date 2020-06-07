@@ -6967,7 +6967,7 @@ a:focus {
   font-weight: 600; }
 
 .table.table-cart tr td {
-  padding: 2rem 1.5rem;
+  /* padding: 2rem 1.5rem; */
   border-top: 1px solid #ccc; }
   .table.table-cart tr td.product-col {
     padding: 2rem .8rem 1.8rem 0; }
