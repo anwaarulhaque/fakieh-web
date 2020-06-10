@@ -4,6 +4,8 @@
   height: 100px;
   font-family: $second-font-family;
   background-color: #fff;
+  border-bottom: 1px solid #00e1ff;
+
   .container,
   .container-fluid {
     display: flex;
@@ -70,7 +72,7 @@
     &:hover>a,
     &.show>a,
     &.active>a {
-      color: $primary-color;    
+      color: #00e1ff;    
       background-color: transparent;
     }
   }

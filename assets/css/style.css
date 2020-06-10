@@ -305,7 +305,8 @@ a:focus {
   position: relative;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  background-color: #fff; }
+  background-color: #fff;
+  border-bottom: 1px solid #00e1ff; }
   .header .container,
   .header .container-fluid {
     display: flex;
@@ -349,7 +350,7 @@ a:focus {
     .header .menu > li:hover > a,
     .header .menu > li.show > a,
     .header .menu > li.active > a {
-      color: #000;
+      color: #00e1ff;
       background-color: transparent; }
   .header .menu {
     margin-right: 0; }
@@ -383,12 +384,7 @@ a:focus {
 
 .header-middle {
   padding-top: 1.5rem;
-  padding-bottom: 2.5rem; 
-  border: #00e1ff solid 1px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
+  padding-bottom: 2.5rem; }
 
 .header-user {
   display: flex;
@@ -1070,8 +1066,6 @@ a:focus {
     font: 600 12px "Poppins", sans-serif;
     letter-spacing: 0;
     color: #696969; }
-  .menu li:hover > a, .menu li.show > a, .menu li.active > a {
-    background-color: #f4f4f4; }
   .menu li:hover > ul,
   .menu li:hover > .megamenu, .menu li.show > ul,
   .menu li.show > .megamenu, .menu li.active > ul,
@@ -1154,7 +1148,7 @@ a:focus {
           margin-left: -8px;
           padding: 7px 8px; }
         .menu .megamenu .submenu li a:hover {
-          background-color: #f4f4f4; }
+          color: #00e1ff; }
   .menu.sf-arrows .sf-with-ul,
   .menu.sf-arrows .sf-with-ul li {
     position: relative; }
@@ -1350,7 +1344,7 @@ a:focus {
     padding-top: 1.95rem;
     padding-bottom: 1.95rem; }
   .sticky-header.fixed .logo img {
-    width: 80px;
+    width: auto;
     max-height: 32px; }
   .sticky-header.fixed .cart-dropdown {
     margin-top: 0;
@@ -5091,13 +5085,8 @@ a:focus {
   .home-banner-content a.btn {
     padding: 1.5rem 2.5rem;
     border-radius: 0;
-<<<<<<< Updated upstream
-    background-color: #f6851f !important;
     border: none;
-=======
-    background-color: #00e1ff;
->>>>>>> Stashed changes
-    color: #fff;
+    color: #494949;
     font: 400 1.2rem/1.5 "Poppins", sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase; }
@@ -6967,7 +6956,7 @@ a:focus {
   font-weight: 600; }
 
 .table.table-cart tr td {
-  /* padding: 2rem 1.5rem; */
+  padding: 2rem 1.5rem;
   border-top: 1px solid #ccc; }
   .table.table-cart tr td.product-col {
     padding: 2rem .8rem 1.8rem 0; }
