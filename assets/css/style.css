@@ -392,11 +392,17 @@ a:focus {
   margin-right: 10px;
   margin-bottom: 2px;
   cursor: pointer; }
-  .header-user i {
-    font-size: 20px;
-    color: black; }
-  .header-user:hover i {
-    color: #000; }
+  .header-user .btn-login {
+    padding: 8px 15px;
+    border: none;
+    border: 1px solid #00e1ff;
+    border-radius: 5px;
+    color: #00e1ff;
+    background-color: transparent;
+    cursor: pointer; }
+    .header-user .btn-login:hover {
+      background-color: #00e1ff;
+      color: white; }
 
 .porto-icon {
   font-size: 22px;
